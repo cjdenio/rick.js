@@ -18,7 +18,7 @@ const Rick = {
     for (i = 0; i < elements.length; i++) {
       elements[i].addEventListener("click", function (e) {
         e.preventDefault();
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_self");
       });
     }
   },
